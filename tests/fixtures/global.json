@@ -1,0 +1,136 @@
+{
+ "meta": {
+  "source": "kmorrill/op-z-sysex",
+  "commit": "2a5439062039bc7f62152ca2224f9ecf63b9b871"
+ },
+ "input": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff80800000780000000000000000a000000000000000000000000000000000000000000000000000000000000000000000007f6400ff000000",
+ "edits": [
+  [
+   "tempo",
+   123
+  ],
+  [
+   "chain",
+   2,
+   [
+    1,
+    5,
+    9
+   ]
+  ],
+  [
+   "chain",
+   14,
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  ],
+  [
+   "level",
+   "drum",
+   200
+  ],
+  [
+   "level",
+   "master",
+   110
+  ]
+ ],
+ "output": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff010509ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff000102030405060708090a0b0c0d0e0f000102030405060708090a0b0c0d0effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc880006e7b0000000000000000a000000000000000000000000000000000000000000000000000000000000000000000007f6400ff000000",
+ "summary": {
+  "drum_level": 200,
+  "synth_level": 128,
+  "punch_level": 0,
+  "master_level": 110,
+  "tempo": 123,
+  "swing": 127,
+  "metronome_level": 100,
+  "metronome_sound": 0,
+  "chains": [
+   [],
+   [],
+   [
+    1,
+    5,
+    9
+   ],
+   [],
+   [],
+   [],
+   [],
+   [],
+   [],
+   [],
+   [],
+   [],
+   [],
+   [],
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  ],
+  "active_chain": [],
+  "selected_chain_raw": 255
+ },
+ "upload_frame": "f0002076010c5e781c7b7f1f32406b484a49210923007e12404048444c427f4a464e4149454d5f434b470f462728017f4403435e350320142c60200c6a5342187e0329003e00036155f7"
+}

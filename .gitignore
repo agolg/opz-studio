@@ -1,0 +1,29 @@
+# Dépendances et builds
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+
+# Journaux
+logs
+*.log
+npm-debug.log*
+
+# Éditeurs
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+
+# Données personnelles de l'OP-Z — ne JAMAIS publier (votre musique, vos réglages)
+*.opzproject
+plugs.json
+slotConfiguration.json
+*.bin
+dumps/
+
+# Archives de mise à jour et fichiers de travail locaux
+tools/maj/
+tools/tmp/

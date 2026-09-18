@@ -1,0 +1,22 @@
+{
+  "_source": "kmorrill/op-z-sysex docs/typed-pattern-editing.md 'Step Components' (device-proven, firmware 1.2.45+). Bit = 1 << index in the step record's u16 mask; value at step[2 + index].",
+  "_values": "Raw 1..10 correspond to the OP-Z value keys 1..0 of the official chart (teenage.engineering/guides/op-z/step-components). Spark raw 1..8 = Pass N; raw 10 = reset counter (scope unconfirmed).",
+  "components": [
+    { "index": 0, "id": "pulse", "label": "Pulse" },
+    { "index": 1, "id": "parameter_spark", "label": "Parameter Spark" },
+    { "index": 2, "id": "jump", "label": "Jump" },
+    { "index": 3, "id": "velocity", "label": "Velocity" },
+    { "index": 4, "id": "ramp_up", "label": "Ramp Up" },
+    { "index": 5, "id": "ramp_down", "label": "Ramp Down" },
+    { "index": 6, "id": "random", "label": "Random" },
+    { "index": 7, "id": "glide", "label": "Glide" },
+    { "index": 8, "id": "multiply", "label": "Multiply" },
+    { "index": 9, "id": "sweep", "label": "Sweep" },
+    { "index": 10, "id": "pulse_hold", "label": "Pulse Hold" },
+    { "index": 11, "id": "tonality", "label": "Tonality" },
+    { "index": 12, "id": "trigger_spark", "label": "Trigger Spark" },
+    { "index": 13, "id": "component_spark", "label": "Component Spark" },
+    { "index": 14, "id": "reserved_14", "label": "Réservé 14", "reserved": true },
+    { "index": 15, "id": "reserved_15", "label": "Réservé 15", "reserved": true }
+  ]
+}

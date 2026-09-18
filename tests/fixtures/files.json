@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "source": "kmorrill/op-z-sysex",
+  "commit": "2a5439062039bc7f62152ca2224f9ecf63b9b871"
+ },
+ "file_id": [
+  {
+   "path": "settings/slotConfiguration.json",
+   "id": 2873598156,
+   "download_id": 0
+  },
+  {
+   "path": "settings/plugs.json",
+   "id": 130753463,
+   "download_id": 1
+  },
+  {
+   "path": "syncjob.json",
+   "id": 1257584045,
+   "download_id": 2
+  },
+  {
+   "path": "samplepacks/1-kick/kick01.aif",
+   "id": 1156744013,
+   "download_id": 1156744013
+  },
+  {
+   "path": "project01.opz",
+   "id": 740124670,
+   "download_id": 740124670
+  }
+ ]
+}
